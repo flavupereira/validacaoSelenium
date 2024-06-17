@@ -1,7 +1,10 @@
 import static org.junit.Assert.assertTrue;
+
+import org.junit.After;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -33,7 +36,7 @@ public class TesteModuloTreze {
 
     }
 
-    // @AfterTest
+    @AfterTest
     public void tearDown() {
         navegador.quit();
 
