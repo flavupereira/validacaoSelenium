@@ -34,7 +34,8 @@ git clone [url-do-repositorio]
 
 **2. Navegue até o diretório do projeto:**
 
-```cd demo
+```
+cd demo
  ```
 
 **3. Execute o Maven para baixar as dependências:**
